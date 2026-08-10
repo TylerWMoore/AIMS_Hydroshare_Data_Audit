@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <hsterms:CompositeResource rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426">
+    <dc:type>
+      <rdf:Description rdf:about="http://www.hydroshare.org/terms/CompositeResource">
+        <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+        <rdfs:label>Composite Resource</rdfs:label>
+      </rdf:Description>
+    </dc:type>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:isPartOf>Brown, C. L., Seybold, E., Busch, M., Plont, S., Peterson, D., P., B. J., Hale, R., Jones, N., Burgin, A. (2026). Hydrologic controls on diel dissolved oxygen regimes in non-perennial streams, HydroShare, http://www.hydroshare.org/resource/be0d6dc4f2fd43d5901855f080ebe615</dcterms:isPartOf>
+      </rdf:Description>
+    </dc:relation>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:doi rdf:resource="https://doi.org/10.4211/hs.d57338ebfb0240f58e8de37ddacf9426"/>
+      </rdf:Description>
+    </dc:identifier>
+    <hsterms:awardInfo>
+      <rdf:Description>
+        <hsterms:awardTitle>Aquatic Intermittency Effects of Microbiomes on Streams</hsterms:awardTitle>
+        <hsterms:fundingAgencyName>U.S. National Science Foundation</hsterms:fundingAgencyName>
+        <hsterms:awardNumber>2019603</hsterms:awardNumber>
+        <hsterms:fundingAgencyURL rdf:resource="https://ror.org/021nxhr62"/>
+      </rdf:Description>
+    </hsterms:awardInfo>
+    <dc:date>
+      <hsterms:published>
+        <rdf:value>2026-04-02T12:31:12.314301+00:00</rdf:value>
+      </hsterms:published>
+    </dc:date>
+    <dc:subject>Paint Rock</dc:subject>
+    <dcterms:bibliographicCitation>Peterson, D., Jones, N. (2026). Paint Rock Stream Temperature, Intermittency, and Conductivity Data (AIMS_SE_PRF_STIC), HydroShare, https://doi.org/10.4211/hs.d57338ebfb0240f58e8de37ddacf9426</dcterms:bibliographicCitation>
+    <dc:date>
+      <dcterms:modified>
+        <rdf:value>2026-07-07T23:06:38.813493+00:00</rdf:value>
+      </dcterms:modified>
+    </dc:date>
+    <dc:language>eng</dc:language>
+    <dc:description>
+      <rdf:Description>
+        <dcterms:abstract>This study was conducted in the Paint Rock research watershed (outlet location: 34.96861724,  -86.16501705) on privately owned property in Jackson County (AL, USA). The watershed drains a non-perennial unnamed tributary to Burks Creek, and contains 2.97 km^2 of deciduous forest in the Cumberland Plateau physiographic section. Located near Estillfork, AL, the watershed spans an elevation range from 211 to 550 m above sea level, and is a tributary to the Paint Rock River (within the larger Tennessee basin). The region has a humid subtropical climate, with mean daily January and July air temperatures of 4.4°C and 25.4°C respectively, and mean annual precipitation of 1,390 mm/yr. &#13;
+&#13;
+These data were collected in support of the sampling goals of the Aquatic Intermittency effects on Microbiomes in Streams (AIMS) Project. 20 STIC loggers were placed along the Paint Rock watershed and collected data from Sep. 2021 through Oct. 2024. These sensors were set to collect temperature and conductivity data every 15 minutes starting from Sep. 2021 through Feb. 2024, and every 1 hour from Feb. to Oct. 2024. The raw conductivity data were used to classify the timeseries into wet or dry readings at each timestep. Each .csv file is associated with a single site for a single year.</dcterms:abstract>
+      </rdf:Description>
+    </dc:description>
+    <dc:coverage>
+      <dcterms:period>
+        <rdf:value>start=2021-09-24T00:00:00; end=2024-10-03T00:00:00</rdf:value>
+      </dcterms:period>
+    </dc:coverage>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:conformsTo>Godsey, S., C. Wheeler, S. Zipper (2024). AIMS SOP STIC Deployment and Maintenance, HydroShare, http://www.hydroshare.org/resource/c82a87a6c63445029d35131260241386</dcterms:conformsTo>
+      </rdf:Description>
+    </dc:relation>
+    <dc:title>Paint Rock Stream Temperature, Intermittency, and Conductivity Data (AIMS_SE_PRF_STIC)</dc:title>
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>name=Paint Rock; projection=WGS 84 EPSG:4326; units=Decimal degrees; northlimit=34.9705; eastlimit=-86.1646; southlimit=34.9532; westlimit=-86.1938</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6332</hsterms:hydroshare_user_id>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:phone>2082823170</hsterms:phone>
+        <hsterms:address>Idaho, US</hsterms:address>
+        <hsterms:organization>Idaho State University</hsterms:organization>
+        <hsterms:name>Godsey, Sarah</hsterms:name>
+        <hsterms:email>godsey@isu.edu</hsterms:email>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6332</hsterms:description>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:subject>STIC</dc:subject>
+    <dc:subject>non-perennial streams</dc:subject>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:email>burginam@ku.edu</hsterms:email>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:name>Burgin, Amy</hsterms:name>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22799</hsterms:description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22799</hsterms:hydroshare_user_id>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:address>KS, US</hsterms:address>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:publisher>
+      <rdf:Description>
+        <hsterms:publisherURL rdf:resource="https://www.cuahsi.org"/>
+        <hsterms:publisherName>Consortium of Universities for the Advancement of Hydrologic Science, Inc. (CUAHSI)</hsterms:publisherName>
+      </rdf:Description>
+    </dc:publisher>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:email>dmpeterson2@crimson.ua.edu</hsterms:email>
+        <hsterms:organization>University of Alabama - Tuscaloosa</hsterms:organization>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26290</hsterms:description>
+        <hsterms:name>Peterson, Delaney</hsterms:name>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26290</hsterms:hydroshare_user_id>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hsterms:creatorOrder>
+      </rdf:Description>
+    </dc:creator>
+    <dc:subject>AIMS</dc:subject>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:hydroShareIdentifier rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426"/>
+      </rdf:Description>
+    </dc:identifier>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5426</hsterms:description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5426</hsterms:hydroshare_user_id>
+        <hsterms:address></hsterms:address>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:name>Zipper, Samuel</hsterms:name>
+        <hsterms:email>samuelczipper@gmail.com</hsterms:email>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:date>
+      <dcterms:created>
+        <rdf:value>2025-04-17T04:46:29.992351+00:00</rdf:value>
+      </dcterms:created>
+    </dc:date>
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution CC BY.</hsterms:rightsStatement>
+      </rdf:Description>
+    </dc:rights>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:email>cnjones7@ua.edu</hsterms:email>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:name>Jones, Nathan</hsterms:name>
+        <hsterms:address></hsterms:address>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5279</hsterms:description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5279</hsterms:hydroshare_user_id>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hsterms:creatorOrder>
+        <hsterms:organization>University of Alabama</hsterms:organization>
+      </rdf:Description>
+    </dc:creator>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:conformsTo>Burke, E., J. Wilhelm, S. Zipper, C. Brown (2024). AIMS SOP STIC Calibration, HydroShare, http://www.hydroshare.org/resource/9f2027c779d64149be32bdb9eede54f2</dcterms:conformsTo>
+      </rdf:Description>
+    </dc:relation>
+    <dc:subject>stream intermittency</dc:subject>
+  </hsterms:CompositeResource>
+</rdf:RDF>

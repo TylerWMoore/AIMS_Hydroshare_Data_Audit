@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <hsterms:CompositeResource rdf:about="http://www.hydroshare.org/resource/b6035e5433f449dc9ddfc5d0ebbb5f91">
+    <dcterms:bibliographicCitation>Sommerville, A., Zipper, S. (2026). Youngmeyer Ranch (Kansas) Stream Temperature, Intermittency, and Conductivity Data (AIMS_GP_YMR_STIC), HydroShare, http://www.hydroshare.org/resource/b6035e5433f449dc9ddfc5d0ebbb5f91</dcterms:bibliographicCitation>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:address>KS, US</hsterms:address>
+        <hsterms:organization>Kansas Geological Survey;University of Kansas</hsterms:organization>
+        <hsterms:email>connorbrown1996@gmail.com</hsterms:email>
+        <hsterms:ORCID rdf:resource="https://orcid.org/0000-0002-9680-8930"/>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:name>Brown, Connor L.</hsterms:name>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22711</hsterms:description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22711</hsterms:hydroshare_user_id>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:type>
+      <rdf:Description rdf:about="http://www.hydroshare.org/terms/CompositeResource">
+        <rdfs:label>Composite Resource</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+      </rdf:Description>
+    </dc:type>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22799</hsterms:hydroshare_user_id>
+        <hsterms:name>Burgin, Amy</hsterms:name>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22799</hsterms:description>
+        <hsterms:email>burginam@ku.edu</hsterms:email>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:address>IA, US</hsterms:address>
+        <hsterms:organization>Iowa State University</hsterms:organization>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:conformsTo>Burke, E., J. Wilhelm, S. Zipper, C. Brown (2024). AIMS SOP STIC Calibration, HydroShare, http://www.hydroshare.org/resource/9f2027c779d64149be32bdb9eede54f2</dcterms:conformsTo>
+      </rdf:Description>
+    </dc:relation>
+    <dc:date>
+      <dcterms:modified>
+        <rdf:value>2026-07-08T01:49:54.546553+00:00</rdf:value>
+      </dcterms:modified>
+    </dc:date>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:isPartOf>Flynn, S. (2026). DryingHistories, HydroShare, http://www.hydroshare.org/resource/484baf751a444672ad47767ef3750fcf</dcterms:isPartOf>
+      </rdf:Description>
+    </dc:relation>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:address>KS, US</hsterms:address>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:name>Flynn, Sarah</hsterms:name>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22801</hsterms:description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22801</hsterms:hydroshare_user_id>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:email>s.m.flynn@ku.edu</hsterms:email>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:coverage>
+      <dcterms:period>
+        <rdf:value>start=2021-05-01T00:00:00; end=2024-11-30T00:00:00</rdf:value>
+      </dcterms:period>
+    </dc:coverage>
+    <dc:description>
+      <rdf:Description>
+        <dcterms:abstract>This resource includes Stream Temperature, Intermittency, and Conductivity (STIC) data collected from Youngmeyer Ranch in the Flint Hills of Kansas. These data were collected in support of the sampling goals of the Aquatic Intermittency effects on Microbiomes in Streams (AIMS) project. These sensors were set to collect temperature and conductivity data every 15 minutes starting in May 2021 through November 2024, and raw conductivity data were used to classify the timeseries into wet or dry readings at each timestep following the approach described in Zipper et al., 2025, https://doi.org/10.1016/j.envsoft.2025.106484 &#13;
+&#13;
+Each .csv file is associated with a single site and year. Also included is a README that includes author information, column descriptions, and site locations.&#13;
+&#13;
+Youngmeyer Ranch is located in Elk County, KS (outlet location: 37.56442, -96.49106) and managed by Wichita State University and owned by the Youngmeyer Trust. The ranch is roughly 1902 ha of grassland prairie used predominantly for cattle grazing and is burned every 1-2 years. A tributary of the Elk River, specifically the south branch of the Elk River headwaters, elevation at Youngmeyer ranges from 373-488 m with mean annual temperature of 13.7°C and mean annual precipitation of 979mm. This site is geologically constructed of Permian age limestone and shale with layers of chert below silty clay loam soils (Houseman et al. 2016). This site is predominantly grassland composed of the same dominant grasses as Konza Prairie, with scattered black oaks (Q. veluntina) along the creeks (Houseman et al. 2016).&#13;
+&#13;
+Houseman, G. R., M. S. Kraushar, and C. M. Rogers. 2016. The Wichita State University biological field station: Bringing breadth to research along the precipitation gradient in Kansas. Transactions of the Kansas Academy of Science 119(1):27-32.</dcterms:abstract>
+      </rdf:Description>
+    </dc:description>
+    <dc:title>Youngmeyer Ranch (Kansas) Stream Temperature, Intermittency, and Conductivity Data (AIMS_GP_YMR_STIC)</dc:title>
+    <dc:subject>stream intermittency</dc:subject>
+    <dc:date>
+      <dcterms:created>
+        <rdf:value>2026-03-12T14:01:33.202718+00:00</rdf:value>
+      </dcterms:created>
+    </dc:date>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:isPartOf>Brown, C. L., Seybold, E., Busch, M., Plont, S., Peterson, D., P., B. J., Hale, R., Jones, N., Burgin, A. (2026). Hydrologic controls on diel dissolved oxygen regimes in non-perennial streams, HydroShare, http://www.hydroshare.org/resource/be0d6dc4f2fd43d5901855f080ebe615</dcterms:isPartOf>
+      </rdf:Description>
+    </dc:relation>
+    <dc:subject>AIMS</dc:subject>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:conformsTo>Zipper, S., Wheeler, C. T., Peterson, D. M., Cook, S. C., Godsey, S. E., &amp; Aho, K. (2025). STICr: An open-source package and workflow for stream temperature, intermittency, and conductivity (STIC) data. Environmental Modelling &amp; Software, 190, 106484. https://doi.org/10.1016/j.envsoft.2025.106484</dcterms:conformsTo>
+      </rdf:Description>
+    </dc:relation>
+    <dc:relation>
+      <rdf:Description>
+        <hsterms:isDescribedBy>Brown, C. L., S. Zipper, M. Busch (2026). Youngmeyer Ranch, KS Environmental Data (AIMS_GP_YMR), HydroShare, http://www.hydroshare.org/resource/d499a6e70f6a4ab3af42e922027e1448</hsterms:isDescribedBy>
+      </rdf:Description>
+    </dc:relation>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:conformsTo>Godsey, S., C. Wheeler, S. Zipper (2024). AIMS SOP STIC Deployment and Maintenance, HydroShare, http://www.hydroshare.org/resource/c82a87a6c63445029d35131260241386</dcterms:conformsTo>
+      </rdf:Description>
+    </dc:relation>
+    <hsterms:awardInfo>
+      <rdf:Description>
+        <hsterms:fundingAgencyName>U.S. National Science Foundation</hsterms:fundingAgencyName>
+        <hsterms:fundingAgencyURL rdf:resource="https://ror.org/021nxhr62"/>
+        <hsterms:awardNumber>2019603</hsterms:awardNumber>
+        <hsterms:awardTitle>Aquatic Intermittency Effects of Microbiomes on Streams</hsterms:awardTitle>
+      </rdf:Description>
+    </hsterms:awardInfo>
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution CC BY.</hsterms:rightsStatement>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      </rdf:Description>
+    </dc:rights>
+    <dc:subject>STIC</dc:subject>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5425</hsterms:hydroshare_user_id>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hsterms:creatorOrder>
+        <hsterms:ORCID rdf:resource="https://orcid.org/0000-0002-8735-5757"/>
+        <hsterms:GoogleScholarID rdf:resource="https://scholar.google.com/citations?user=XXIpO1YAAAAJ&amp;hl=en"/>
+        <hsterms:email>samzipper@ku.edu</hsterms:email>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5425</hsterms:description>
+        <hsterms:name>Zipper, Sam</hsterms:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22938</hsterms:hydroshare_user_id>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:name>Sommerville, Alexi</hsterms:name>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hsterms:creatorOrder>
+        <hsterms:email>a447s196@ku.edu</hsterms:email>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22938</hsterms:description>
+        <hsterms:address>KS, US</hsterms:address>
+      </rdf:Description>
+    </dc:creator>
+    <dc:subject>Youngmeyer Ranch</dc:subject>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:hydroShareIdentifier rdf:resource="http://www.hydroshare.org/resource/b6035e5433f449dc9ddfc5d0ebbb5f91"/>
+      </rdf:Description>
+    </dc:identifier>
+    <dc:language>eng</dc:language>
+    <dc:subject>non-perennial streams</dc:subject>
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>name=Youngmeyer Ranch; projection=WGS 84 EPSG:4326; units=Decimal degrees; northlimit=37.56623; eastlimit=-96.49102; southlimit=37.55947; westlimit=-96.50402</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:name>Wheeler, Christopher</hsterms:name>
+        <hsterms:email>christopher.wheeler@ku.edu</hsterms:email>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14272</hsterms:description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14272</hsterms:hydroshare_user_id>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:address>Kansas, US</hsterms:address>
+      </rdf:Description>
+    </dc:contributor>
+  </hsterms:CompositeResource>
+</rdf:RDF>

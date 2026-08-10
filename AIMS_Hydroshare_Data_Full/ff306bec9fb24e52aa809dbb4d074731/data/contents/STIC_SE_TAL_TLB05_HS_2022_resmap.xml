@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:citoterms="http://purl.org/spar/cito/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ore="http://www.openarchives.org/ore/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs1="http://www.w3.org/2001/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/ff306bec9fb24e52aa809dbb4d074731/data/contents/STIC_SE_TAL_TLB05_HS_2022_resmap.xml#aggregation">
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/ff306bec9fb24e52aa809dbb4d074731/data/contents/STIC_SE_TAL_TLB05_HS_2022_meta.xml"/>
+        <citoterms:isDocumentedBy>http://www.hydroshare.org/resource/ff306bec9fb24e52aa809dbb4d074731/data/contents/STIC_SE_TAL_TLB05_HS_2022_meta.xml</citoterms:isDocumentedBy>
+    <ore:isDescribedBy>http://www.hydroshare.org/resource/ff306bec9fb24e52aa809dbb4d074731/data/contents/STIC_SE_TAL_TLB05_HS_2022_resmap.xml</ore:isDescribedBy>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/ff306bec9fb24e52aa809dbb4d074731/data/contents/STIC_SE_TAL_TLB05_HS_2022.csv"/>
+    <dc:title>STIC_SE_TAL_TLB05_HS_2022</dc:title>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/ff306bec9fb24e52aa809dbb4d074731/data/contents/STIC_SE_TAL_TLB05_HS_2022_meta.xml">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/ff306bec9fb24e52aa809dbb4d074731/data/contents/STIC_SE_TAL_TLB05_HS_2022_resmap.xml#aggregation</ore:isAggregatedBy>
+    <citoterms:documents>http://www.hydroshare.org/resource/ff306bec9fb24e52aa809dbb4d074731/data/contents/STIC_SE_TAL_TLB05_HS_2022_resmap.xml#aggregation</citoterms:documents>
+    <dc:format>application/rdf+xml</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openarchives.org/ore/terms/ResourceMap">
+    <rdfs1:label>ResourceMap</rdfs1:label>
+    <rdfs1:isDefinedBy>http://www.openarchives.org/ore/terms/</rdfs1:isDefinedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/ff306bec9fb24e52aa809dbb4d074731/data/contents/STIC_SE_TAL_TLB05_HS_2022.csv">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/ff306bec9fb24e52aa809dbb4d074731/data/contents/STIC_SE_TAL_TLB05_HS_2022_resmap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>text/csv</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openarchives.org/ore/terms/Aggregation">
+    <rdfs1:isDefinedBy>http://www.openarchives.org/ore/terms/</rdfs1:isDefinedBy>
+    <rdfs1:label>Aggregation</rdfs1:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/ff306bec9fb24e52aa809dbb4d074731/data/contents/STIC_SE_TAL_TLB05_HS_2022_resmap.xml">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/ResourceMap"/>
+    <dcterms:creator rdf:resource="http://foresite-toolkit.googlecode.com/#pythonAgent"/>
+    <ore:describes rdf:resource="http://www.hydroshare.org/resource/ff306bec9fb24e52aa809dbb4d074731/data/contents/STIC_SE_TAL_TLB05_HS_2022_resmap.xml#aggregation"/>
+    <dcterms:modified>2025-01-24T07:39:49Z</dcterms:modified>
+    <dcterms:created>2025-01-24T07:39:49Z</dcterms:created>
+    <dc:format>application/rdf+xml</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/terms/CSVFileAggregation">
+    <rdfs1:isDefinedBy>http://www.hydroshare.org/terms</rdfs1:isDefinedBy>
+    <rdfs1:label>CSV File Aggregation</rdfs1:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://foresite-toolkit.googlecode.com/#pythonAgent">
+    <foaf:name>Foresite Toolkit (Python)</foaf:name>
+    <foaf:mbox>foresite@googlegroups.com</foaf:mbox>
+  </rdf:Description>
+</rdf:RDF>

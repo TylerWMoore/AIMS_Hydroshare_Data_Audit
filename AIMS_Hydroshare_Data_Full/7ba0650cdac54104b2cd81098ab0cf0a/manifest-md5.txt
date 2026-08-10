@@ -1,0 +1,4 @@
+9aa1a321bcac1939d29a46524dd69fe0    data/contents/AIMS_MW_JDR_STICdata_ReadME.xlsx
+c0c5d725eecdefabaa9ba3828c54662c    data/contents/JDR.zip
+bc96df4bd858b809219e9c49336bce20    data/resourcemap.xml
+64b4229267a6d331ab2baa59a3df4009    data/resourcemetadata.xml

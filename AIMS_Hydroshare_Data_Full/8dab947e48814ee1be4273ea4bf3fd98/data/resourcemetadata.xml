@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <hsterms:CompositeResource rdf:about="http://www.hydroshare.org/resource/8dab947e48814ee1be4273ea4bf3fd98">
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution CC BY.</hsterms:rightsStatement>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      </rdf:Description>
+    </dc:rights>
+    <dc:title>Gibson Jack Stream Temperature, Intermittency, and Conductivity Data (AIMS_MW_GBJ_approach1_STIC)</dc:title>
+    <dc:coverage>
+      <dcterms:period>
+        <rdf:value>start=2022-04-09T00:00:00; end=2024-10-03T00:00:00</rdf:value>
+      </dcterms:period>
+    </dc:coverage>
+    <dc:relation>
+      <rdf:Description>
+        <hsterms:isExecutedBy>Burke, E., J. Wilhelm, S. Zipper, C. Brown (2024). AIMS SOP STIC Calibration, HydroShare, http://www.hydroshare.org/resource/9f2027c779d64149be32bdb9eede54f2</hsterms:isExecutedBy>
+      </rdf:Description>
+    </dc:relation>
+    <dc:subject>non-perennial</dc:subject>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:doi rdf:resource="https://doi.org/10.4211/hs.8dab947e48814ee1be4273ea4bf3fd98"/>
+      </rdf:Description>
+    </dc:identifier>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:references>Kraft, M., A. Sniadach, M. Busch, S. Godsey (2025). Gibson Jack, ID Environmental Data (AIMS_MW_GBJ_ENVI), HydroShare, http://www.hydroshare.org/resource/3f0d2d8793834333a5f5d0b185cee857</dcterms:references>
+      </rdf:Description>
+    </dc:relation>
+    <dc:subject>STIC</dc:subject>
+    <dc:date>
+      <dcterms:created>
+        <rdf:value>2025-06-25T21:06:52.421246+00:00</rdf:value>
+      </dcterms:created>
+    </dc:date>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:hydroShareIdentifier rdf:resource="http://www.hydroshare.org/resource/8dab947e48814ee1be4273ea4bf3fd98"/>
+      </rdf:Description>
+    </dc:identifier>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22704</hsterms:description>
+        <hsterms:email>m.h.busch@ku.edu</hsterms:email>
+        <hsterms:address></hsterms:address>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hsterms:creatorOrder>
+        <hsterms:organization>University of Kansas;University of Kansas Biological Survey</hsterms:organization>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22704</hsterms:hydroshare_user_id>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:name>Busch, Michelle</hsterms:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:date>
+      <hsterms:published>
+        <rdf:value>2026-04-16T14:00:37.290702+00:00</rdf:value>
+      </hsterms:published>
+    </dc:date>
+    <dc:subject>Gibson Jack</dc:subject>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:name>Godsey, Sarah</hsterms:name>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hsterms:creatorOrder>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6332</hsterms:hydroshare_user_id>
+        <hsterms:address>Idaho, US</hsterms:address>
+        <hsterms:organization>Idaho State University</hsterms:organization>
+        <hsterms:phone>2082823170</hsterms:phone>
+        <hsterms:email>godsey@isu.edu</hsterms:email>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6332</hsterms:description>
+      </rdf:Description>
+    </dc:creator>
+    <dc:type>
+      <rdf:Description rdf:about="http://www.hydroshare.org/terms/CompositeResource">
+        <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+        <rdfs:label>Composite Resource</rdfs:label>
+      </rdf:Description>
+    </dc:type>
+    <dc:subject>stream intermittency</dc:subject>
+    <dc:publisher>
+      <rdf:Description>
+        <hsterms:publisherURL rdf:resource="https://www.cuahsi.org"/>
+        <hsterms:publisherName>Consortium of Universities for the Advancement of Hydrologic Science, Inc. (CUAHSI)</hsterms:publisherName>
+      </rdf:Description>
+    </dc:publisher>
+    <hsterms:awardInfo>
+      <rdf:Description>
+        <hsterms:awardNumber>2019603</hsterms:awardNumber>
+        <hsterms:awardTitle>Aquatic Intermittency Effects of Microbiomes on Streams</hsterms:awardTitle>
+        <hsterms:fundingAgencyName>U.S. National Science Foundation</hsterms:fundingAgencyName>
+        <hsterms:fundingAgencyURL rdf:resource="https://ror.org/021nxhr62"/>
+      </rdf:Description>
+    </hsterms:awardInfo>
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>name=Gibson Jack; projection=WGS 84 EPSG:4326; units=Decimal degrees; northlimit=42.80274; eastlimit=-112.49791; southlimit=42.77174; westlimit=-112.44431</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:organization>Utah State University;Boise State University;Idaho State University</hsterms:organization>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1570</hsterms:description>
+        <hsterms:name>Kraft, Maggi</hsterms:name>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1570</hsterms:hydroshare_user_id>
+        <hsterms:email>maggikraft4@gmail.com</hsterms:email>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hsterms:creatorOrder>
+        <hsterms:address>NV, US</hsterms:address>
+        <hsterms:phone>+1 (435) 659-1521</hsterms:phone>
+      </rdf:Description>
+    </dc:creator>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:isPartOf>Brown, C. L., Seybold, E., Busch, M., Plont, S., Peterson, D., P., B. J., Hale, R., Jones, N., Burgin, A. (2026). Hydrologic controls on diel dissolved oxygen regimes in non-perennial streams, HydroShare, http://www.hydroshare.org/resource/be0d6dc4f2fd43d5901855f080ebe615</dcterms:isPartOf>
+      </rdf:Description>
+    </dc:relation>
+    <dc:date>
+      <dcterms:modified>
+        <rdf:value>2026-07-07T20:13:49.177438+00:00</rdf:value>
+      </dcterms:modified>
+    </dc:date>
+    <dc:relation>
+      <rdf:Description>
+        <hsterms:isExecutedBy>Godsey, S., C. Wheeler, S. Zipper (2024). AIMS SOP STIC Deployment and Maintenance, HydroShare, http://www.hydroshare.org/resource/c82a87a6c63445029d35131260241386</hsterms:isExecutedBy>
+      </rdf:Description>
+    </dc:relation>
+    <dc:subject>AIMS</dc:subject>
+    <dc:language>eng</dc:language>
+    <dcterms:bibliographicCitation>Kraft, M., Busch, M., Godsey, S. (2026). Gibson Jack Stream Temperature, Intermittency, and Conductivity Data (AIMS_MW_GBJ_approach1_STIC), HydroShare, https://doi.org/10.4211/hs.8dab947e48814ee1be4273ea4bf3fd98</dcterms:bibliographicCitation>
+    <dc:description>
+      <rdf:Description>
+        <dcterms:abstract>Located near Pocatello, ID, Gibson Jack Creek (outlet location: 42.7853, -112.4446) drains 1620 ha of the US Forest Service Research Natural Area within the Caribou National Forest. Predominantly forested with deciduous trees, sub-apline fir, Douglas fir, and with woody shrubs, sagebrush, and grasses, Gibson Jack spans an elevation range of 1555-2130 m, and has an mean annual temperature and precipitation of 6.5°C and 614.5 mm/yr, respectively. Gibson Jack spans the rain to snow transition with rainfall occurring at the lower elevations and snowfall at the upper elevations. Gibson Jack Creek drains to the Portnuef River and is heavily recreated by the local community.&#13;
+&#13;
+These data were collected in support of the sampling goals of the Aquatic Intermittency effects on Microbiomes in Streams (AIMS) Project. These sensors were set to collect temperature and conductivity data every 15 minutes. Each .csv file is associated with a single site for a single year. &#13;
+&#13;
+Naming convention&#13;
+Guide to interpreting file names using STIC_MW_GBJ_STIC65_HS_2024.csv as an example: &#13;
+ - "STIC_MW_GBJ_" = same for all sites, indicating it is STIC data from the Mountian West region and the Gibson Jack watershed.&#13;
+ - "STIC65" = site code, corresponding to the location of the STIC within the watershed&#13;
+ - "HS" = sublocation, corresponding to the placement of the STIC at that site. All data in this resource was collected from sensors with a "HS" sublocation, meaning the STIC was placed at a high spot in the stream thalweg, and a wet reading is interpreted as an indicator of flowing surface water connection within the stream network. &#13;
+ - "2024" = year of STIC data included in file.&#13;
+&#13;
+Methodological details:&#13;
+STIC sensors were deployed in 2021 following the methods described here: http://www.hydroshare.org/resource/c82a87a6c63445029d35131260241386&#13;
+STIC sensors were calibrated following the methods described here: http://www.hydroshare.org/resource/9f2027c779d64149be32bdb9eede54f2&#13;
+A detailed description of the processing and classification workflow is available in Zipper et al: https://eartharxiv.org/repository/view/4909/&#13;
+&#13;
+Due to data logger errors, maintenance, etc. there are not data for all sites at all timesteps.&#13;
+&#13;
+Further information for all data fields can be found in the "Data Types" tab of this ReadME. Sensors recorded relative conductivity (here, condUncal) and used in conjunction with multi-point lab calibration curves to calculate wetdry and SpC fields. The lowest point on the standard curve was water with an SpC of 0, which represented the lowest possible condUncal that would yield a "wet" value. This zero was used as a threshold, and wetdry was calculated such that anything below this threshold was "dry" (wetdry = 0) and anything above was "wet" (wetdry = 1). Additionally, the rest of the standard curve was used to build a relationship between condUncal and SpC, and this linear model was applied to the condUncal to calculate SpC. &#13;
+&#13;
+The qual_rating flags are (Details in Zipper et al):&#13;
+Excellent: STIC was (1) calibrated prior to deployment, and (2) stayed operational throughout 95% of the download period, and (3) was not displaced from streambed (i.e., the external electrodes were within 1 cm from stream bed at the time of download indicating minimal erosion/deposition), and (4) data from sensor roughly agree with field observations of wet/dry (i.e., &gt;1000 Lux sensor reading on day of removal corresponds to field observations of water at STIC).&#13;
+Good: (1) STIC stayed operational throughout the entire download period, and (2) the external electrodes were within 1 cm from stream bed at the time of download, and (3) data from sensor roughly agree with field observations of wet/dry, but (4) the STIC was not calibrated prior to deployment.&#13;
+Fair: (1) STIC stayed operational throughout 75% or more of the download period, and (2) data roughly agree with field observations, and/or (3) the external electrodes were between 1-3 cm from streambed at the time of download.&#13;
+Poor: (1) STIC stayed operational throughout less than 75% of the download period, and/or (2) the external electrodes were &gt;3 cm from streambed at the time of download, and/or (3) data does NOT agree with field observations.&#13;
+The QAQC flags are denoted as follows; if multiple flags were generated, they were concatenated:&#13;
+NA	: no flags, data passes checks&#13;
+C	: calibration curve yielded a negative value for SpC, changed to a value of 0 manually&#13;
+O	: SpC value is higher than the highest measured Calibration point, and is therefore off the calibration curve&#13;
+D	: wetdry reading flagged as a potential anomaly (i.e., short period of dry surrounded by long period of wet, calculated using a moving window z-score of condUncal values)&#13;
+T	: wetdry reading interpreted from temperature data</dcterms:abstract>
+      </rdf:Description>
+    </dc:description>
+  </hsterms:CompositeResource>
+</rdf:RDF>

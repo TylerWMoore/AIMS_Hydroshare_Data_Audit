@@ -1,0 +1,4 @@
+3c21a9d9f3433840796153adda70a2fa    data/contents/AIMS_GP_SHN_STIC.zip
+358ae9fcdaf82b22186f1a2fa72f5fce    data/contents/README_STIC_GP_SHN.xlsx
+e89b6612dfce58175f4cc0dc0bfd1ee3    data/resourcemap.xml
+f6394de4ed7a97aad26d82ef9fc81ff0    data/resourcemetadata.xml

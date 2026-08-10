@@ -1,0 +1,4 @@
+d58eb7e09cf86687957d6d9f03bcb696-1    data/contents/AIMS_GP_YMR_STIC.zip
+584cf96fc28844bb7cec90fce3c09b32-1    data/contents/README_STIC_GP_YMR.xlsx
+9b946eb79b8600e3a1ea5e0be4cf150c    data/resourcemap.xml
+9ad75187e79e3f46a243b6b3b3fcb66c    data/resourcemetadata.xml

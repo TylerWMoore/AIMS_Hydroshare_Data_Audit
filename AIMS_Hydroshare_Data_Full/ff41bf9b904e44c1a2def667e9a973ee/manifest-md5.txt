@@ -1,0 +1,4 @@
+89a9cc3f22da547a3e009623b9ab1bf9    data/contents/AIMS_MW_DRC_STICdata_ReadME.xlsx
+d3cd39a501677357f73b4c2bca60f691    data/contents/DRC.zip
+1fd481c5c20f3f4378f81877f90354cd    data/resourcemap.xml
+ee9bcd01ea8347ce70f86e21edf899a8    data/resourcemetadata.xml

@@ -1,0 +1,4 @@
+5bd38e1afae58906957f28909b651e73    data/contents/AIMS_MW_GBJ_STICdata_ReadME.xlsx
+42317c1fb140d753b637455c54bd63e0    data/contents/GBJ.zip
+141160484aedf8c503856bb72ad37db5    data/resourcemap.xml
+acb44094cb51a84213750a4e874d64ac    data/resourcemetadata.xml

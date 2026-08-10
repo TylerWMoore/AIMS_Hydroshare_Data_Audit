@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <hsterms:CompositeResource rdf:about="http://www.hydroshare.org/resource/62e1b275e84e41d48e28b4ca481a1d9c">
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:GoogleScholarID rdf:resource="https://scholar.google.com/citations?user=XXIpO1YAAAAJ&amp;hl=en"/>
+        <hsterms:name>Zipper, Sam</hsterms:name>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5425</hsterms:hydroshare_user_id>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hsterms:creatorOrder>
+        <hsterms:ORCID rdf:resource="https://orcid.org/0000-0002-8735-5757"/>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5425</hsterms:description>
+        <hsterms:email>samzipper@ku.edu</hsterms:email>
+      </rdf:Description>
+    </dc:creator>
+    <dc:description>
+      <rdf:Description>
+        <dcterms:abstract>This resource includes Stream Temperature, Intermittency, and Conductivity (STIC) data collected from the South Fork of Kings Creek within the Konza Prairie Biological Station. At the USGS gage located on the mainstem (06879560; est. 1979), Kings Creek is a 5th order intermittent stream draining 1059-ha of tallgrass prairie in the Kansas Flint Hills. These data were collected in support of the sampling goals of the Aquatic Intermittency effects on Microbiomes in Streams (AIMS) Project. These sensors were set to collect temperature and conductivity data every 15 minutes starting in May 2021, and the raw conductivity data were used to classify the timeseries into wet or dry readings at each timestep. Each .csv file is associated with a single site. Also included is a “ReadMe” file that includes author information, column descriptions, and site locations.&#13;
+&#13;
+Data and processing are described in more detail in Zipper et al. (2025), https://doi.org/10.1016/j.envsoft.2025.106484&#13;
+&#13;
+AIMS OSF site: https://osf.io/e7s9j/</dcterms:abstract>
+      </rdf:Description>
+    </dc:description>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:isPartOf>Flynn, S. (2026). DryingHistories, HydroShare, http://www.hydroshare.org/resource/484baf751a444672ad47767ef3750fcf</dcterms:isPartOf>
+      </rdf:Description>
+    </dc:relation>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:doi rdf:resource="https://doi.org/10.4211/hs.62e1b275e84e41d48e28b4ca481a1d9c"/>
+      </rdf:Description>
+    </dc:identifier>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22801</hsterms:description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22801</hsterms:hydroshare_user_id>
+        <hsterms:name>Flynn, Sarah</hsterms:name>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:address>KS, US</hsterms:address>
+        <hsterms:email>s.m.flynn@ku.edu</hsterms:email>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:phone></hsterms:phone>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:conformsTo>Burke, E., J. Wilhelm, S. Zipper, C. Brown (2024). AIMS SOP STIC Calibration, HydroShare, http://www.hydroshare.org/resource/9f2027c779d64149be32bdb9eede54f2</dcterms:conformsTo>
+      </rdf:Description>
+    </dc:relation>
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution CC BY.</hsterms:rightsStatement>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      </rdf:Description>
+    </dc:rights>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:hydroShareIdentifier rdf:resource="http://www.hydroshare.org/resource/62e1b275e84e41d48e28b4ca481a1d9c"/>
+      </rdf:Description>
+    </dc:identifier>
+    <dc:subject>STIC</dc:subject>
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>name=Konza Prairie; projection=WGS 84 EPSG:4326; units=Decimal degrees; northlimit=39.0943; eastlimit=-96.561; southlimit=39.073; westlimit=-96.5972</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:isVersionOf>Zipper, S., C. Wheeler, A. Sommerville (2026). Kings Creek (Konza Prairie) Stream Temperature, Intermittency, and Conductivity Data (AIMS_GP_KNZ_approach1_STIC), HydroShare, http://www.hydroshare.org/resource/77d68de62d6942ceab6859fc5541fd61</dcterms:isVersionOf>
+      </rdf:Description>
+    </dc:relation>
+    <dc:date>
+      <hsterms:published>
+        <rdf:value>2026-04-23T15:17:23.425375+00:00</rdf:value>
+      </hsterms:published>
+    </dc:date>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:organization>Kansas Geological Survey;University of Kansas</hsterms:organization>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22711</hsterms:description>
+        <hsterms:address>KS, US</hsterms:address>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22711</hsterms:hydroshare_user_id>
+        <hsterms:name>Brown, Connor</hsterms:name>
+        <hsterms:email>connorbrown1996@gmail.com</hsterms:email>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:subject>Konza Prairie</dc:subject>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:conformsTo>Godsey, S., C. Wheeler, S. Zipper (2024). AIMS SOP STIC Deployment and Maintenance, HydroShare, http://www.hydroshare.org/resource/c82a87a6c63445029d35131260241386</dcterms:conformsTo>
+      </rdf:Description>
+    </dc:relation>
+    <hsterms:awardInfo>
+      <rdf:Description>
+        <hsterms:fundingAgencyName>National Science Foundation</hsterms:fundingAgencyName>
+        <hsterms:awardNumber>2019603</hsterms:awardNumber>
+        <hsterms:fundingAgencyURL></hsterms:fundingAgencyURL>
+        <hsterms:awardTitle>Aquatic Intermittency Effects of Microbiomes on Streams</hsterms:awardTitle>
+      </rdf:Description>
+    </hsterms:awardInfo>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:isPartOf>Brown, C. L., Seybold, E., Busch, M., Plont, S., Peterson, D., P., B. J., Hale, R., Jones, N., Burgin, A. (2026). Hydrologic controls on diel dissolved oxygen regimes in non-perennial streams, HydroShare, http://www.hydroshare.org/resource/be0d6dc4f2fd43d5901855f080ebe615</dcterms:isPartOf>
+      </rdf:Description>
+    </dc:relation>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:name>Burgin, Amy</hsterms:name>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22799</hsterms:description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22799</hsterms:hydroshare_user_id>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:address>KS, US</hsterms:address>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:email>burginam@ku.edu</hsterms:email>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:publisher>
+      <rdf:Description>
+        <hsterms:publisherURL rdf:resource="https://www.cuahsi.org"/>
+        <hsterms:publisherName>Consortium of Universities for the Advancement of Hydrologic Science, Inc. (CUAHSI)</hsterms:publisherName>
+      </rdf:Description>
+    </dc:publisher>
+    <dc:date>
+      <dcterms:created>
+        <rdf:value>2026-03-12T23:46:05.595601+00:00</rdf:value>
+      </dcterms:created>
+    </dc:date>
+    <dc:subject>stream intermittency</dc:subject>
+    <dc:subject>non-perennial streams</dc:subject>
+    <dc:type>
+      <rdf:Description rdf:about="http://www.hydroshare.org/terms/CompositeResource">
+        <rdfs:label>Composite Resource</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+      </rdf:Description>
+    </dc:type>
+    <dc:title>Kings Creek (Konza Prairie) Stream Temperature, Intermittency, and Conductivity Data (AIMS_GP_KNZ_STIC)</dc:title>
+    <dc:relation>
+      <rdf:Description>
+        <hsterms:isDescribedBy>Ramos, R., A. Burgin, S. Zipper (2023). AIMS_GP_approach3_ENVI, HydroShare, http://www.hydroshare.org/resource/5de4d9eb2d224290b13d469f58dc882b</hsterms:isDescribedBy>
+      </rdf:Description>
+    </dc:relation>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hsterms:creatorOrder>
+        <hsterms:name>Sommerville, Alexi</hsterms:name>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27426</hsterms:description>
+        <hsterms:email>alexi.sommerville@ku.edu</hsterms:email>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:address>KS, US</hsterms:address>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27426</hsterms:hydroshare_user_id>
+      </rdf:Description>
+    </dc:creator>
+    <dc:subject>AIMS</dc:subject>
+    <dcterms:bibliographicCitation>Zipper, S., Wheeler, C., Sommerville, A. (2026). Kings Creek (Konza Prairie) Stream Temperature, Intermittency, and Conductivity Data (AIMS_GP_KNZ_STIC), HydroShare, https://doi.org/10.4211/hs.62e1b275e84e41d48e28b4ca481a1d9c</dcterms:bibliographicCitation>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14272</hsterms:hydroshare_user_id>
+        <hsterms:address>Kansas, US</hsterms:address>
+        <hsterms:email>christopher.wheeler@ku.edu</hsterms:email>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14272</hsterms:description>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hsterms:creatorOrder>
+        <hsterms:name>Wheeler, Christopher</hsterms:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:conformsTo>Zipper, S., Wheeler, C. T., Peterson, D. M., Cook, S. C., Godsey, S. E., &amp; Aho, K. (2025). STICr: An open-source package and workflow for stream temperature, intermittency, and conductivity (STIC) data. Environmental Modelling &amp; Software, 190, 106484. https://doi.org/10.1016/j.envsoft.2025.106484</dcterms:conformsTo>
+      </rdf:Description>
+    </dc:relation>
+    <dc:coverage>
+      <dcterms:period>
+        <rdf:value>start=2021-05-20T00:00:00; end=2025-10-20T00:00:00</rdf:value>
+      </dcterms:period>
+    </dc:coverage>
+    <dc:date>
+      <dcterms:modified>
+        <rdf:value>2026-07-08T01:49:54.544290+00:00</rdf:value>
+      </dcterms:modified>
+    </dc:date>
+    <dc:language>eng</dc:language>
+  </hsterms:CompositeResource>
+</rdf:RDF>

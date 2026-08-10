@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <hsterms:CompositeResource rdf:about="http://www.hydroshare.org/resource/de8512bbe042468aa77bf8f69f20bddf">
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:name>Zipper, Sam</hsterms:name>
+        <hsterms:GoogleScholarID rdf:resource="https://scholar.google.com/citations?user=XXIpO1YAAAAJ&amp;hl=en"/>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5425</hsterms:description>
+        <hsterms:ORCID rdf:resource="https://orcid.org/0000-0002-8735-5757"/>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:email>samzipper@ku.edu</hsterms:email>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hsterms:creatorOrder>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5425</hsterms:hydroshare_user_id>
+      </rdf:Description>
+    </dc:creator>
+    <dc:coverage>
+      <dcterms:period>
+        <rdf:value>start=2022-02-15T00:00:00; end=2022-10-25T00:00:00</rdf:value>
+      </dcterms:period>
+    </dc:coverage>
+    <dc:date>
+      <dcterms:created>
+        <rdf:value>2023-07-13T18:07:13.050370+00:00</rdf:value>
+      </dcterms:created>
+    </dc:date>
+    <dc:language>eng</dc:language>
+    <dc:subject>stream intermittency</dc:subject>
+    <hsterms:awardInfo>
+      <rdf:Description>
+        <hsterms:awardNumber>IOA #2019603</hsterms:awardNumber>
+        <hsterms:awardTitle>Aquatic Intermittency effects on Microbiomes in Streams (AIMS)</hsterms:awardTitle>
+        <hsterms:fundingAgencyName>National Science Foundation (NSF)</hsterms:fundingAgencyName>
+        <hsterms:fundingAgencyURL></hsterms:fundingAgencyURL>
+      </rdf:Description>
+    </hsterms:awardInfo>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14272</hsterms:description>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hsterms:creatorOrder>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14272</hsterms:hydroshare_user_id>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:email>christopher.wheeler@ku.edu</hsterms:email>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:name>Wheeler, Christopher</hsterms:name>
+        <hsterms:address>Kansas, US</hsterms:address>
+        <hsterms:phone></hsterms:phone>
+      </rdf:Description>
+    </dc:creator>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:hydroShareIdentifier rdf:resource="http://www.hydroshare.org/resource/de8512bbe042468aa77bf8f69f20bddf"/>
+      </rdf:Description>
+    </dc:identifier>
+    <dc:subject>STIC</dc:subject>
+    <dc:description>
+      <rdf:Description>
+        <dcterms:abstract>This resource contains data from stream temperature, intermittency, and conductivity (STIC) loggers placed at the Oka' Yanahli preserve (OK, USA) for February 15 to October 25, 2022 at 15 minute resolution as part of the NSF-funded Aquatic Intermittency effects on Microbiomes in Streams (AIMS) project (award IOA #2019603). &#13;
+&#13;
+The file OKA_SiteInfo.csv contains site locations for each sensor and has three fields:&#13;
+ - siteID = name of site&#13;
+ - lat = latitude of site&#13;
+ - long = longitude of site&#13;
+&#13;
+The file OKA_AllSTICsCleaned_20220215-20221025.csv contains the data and has the following fields:&#13;
+ - datetime	= date and time of reading (time zone = UTC).&#13;
+ - siteID = name of site for linking to file KNZ_SiteInfo.csv&#13;
+ - SN = serial number of STIC logger used for that reading.&#13;
+ - condUncal = uncalibrated (raw) conductivity output from the STIC&#13;
+ - tempC = temperature [degrees Celsius]&#13;
+ - SpC = specific conductviity	in us/cm&#13;
+ - wetdry = binary classification of "wet" (water present) or "dry" (no water present) for that timestep&#13;
+ - qual_rating = qualitative data rating crit (described below)&#13;
+ - QAQC = flags from data QAQC process (described below)&#13;
+&#13;
+Due to data logger errors, maintenance, etc. there are not data for all sites at all timesteps.&#13;
+&#13;
+qual_rating description:&#13;
+ - "excellent" = STIC was (1) calibrated prior to deployment, and (2) stayed operational throughout 95% of the download period, and (3) was not displaced from streambed (i.e., the external electrodes were within 1 cm from stream bed at the time of download indicating minimal erosion/deposition), and (4) data from sensor roughly agree with field observations of wet/dry (i.e., &gt;1000 Lux sensor reading on day of removal corresponds to field observations of water at STIC).&#13;
+ - "good" = (1) STIC stayed operational throughout the entire download period, and (2) the external electrodes were within 1 cm from stream bed at the time of download, and (3) data from sensor roughly agree with field observations of wet/dry, but (4) the STIC was not calibrated prior to deployment.&#13;
+ - "fair" = (1) STIC stayed operational throughout 75% or more of the download period, and (2) data roughly agree with field observations, and/or (3) the external electrodes were between 1-3 cm from streambed at the time of download.&#13;
+ - "poor" = (1) STIC stayed operational throughout less than 75% of the download period, and/or (2) the external electrodes were &gt;3 cm from streambed at the time of download, and/or (3) data does NOT agree with field observations.&#13;
+ &#13;
+QAQC description:&#13;
+ - "N" = application of calibration curve resulted in negative value for SpC; this was changed to a value of 0.&#13;
+ - "A" = wetdry reading flagged as a potential anomaly (i.e., short period of dry surroudned by long period of wet or vice versa)&#13;
+An empty field here indicates no flags were generated. If multiple flags were generated, they were concatenated.</dcterms:abstract>
+      </rdf:Description>
+    </dc:description>
+    <dcterms:bibliographicCitation>Wheeler, C., S. Zipper (2024). Oka' Yanahli (OK) Stream Temperature, Intermittency, and Conductivity Data, HydroShare, https://doi.org/10.4211/hs.de8512bbe042468aa77bf8f69f20bddf</dcterms:bibliographicCitation>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22801</hsterms:hydroshare_user_id>
+        <hsterms:name>Flynn, Sarah</hsterms:name>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:address>KS, US</hsterms:address>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22801</hsterms:description>
+        <hsterms:email>s.m.flynn@ku.edu</hsterms:email>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:type>
+      <rdf:Description rdf:about="http://www.hydroshare.org/terms/CompositeResource">
+        <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+        <rdfs:label>Composite Resource</rdfs:label>
+      </rdf:Description>
+    </dc:type>
+    <dc:subject>AIMS</dc:subject>
+    <dc:date>
+      <dcterms:modified>
+        <rdf:value>2024-01-29T13:21:24.714530+00:00</rdf:value>
+      </dcterms:modified>
+    </dc:date>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:doi rdf:resource="https://doi.org/10.4211/hs.de8512bbe042468aa77bf8f69f20bddf"/>
+      </rdf:Description>
+    </dc:identifier>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22799</hsterms:description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22799</hsterms:hydroshare_user_id>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:address>KS, US</hsterms:address>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:name>Burgin, Amy</hsterms:name>
+        <hsterms:email>burginam@ku.edu</hsterms:email>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>name=Oka' Yanahli preserve; projection=WGS 84 EPSG:4326; units=Decimal degrees; northlimit=34.440772; eastlimit=-96.65212; southlimit=34.43459; westlimit=-96.66969</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+    <dc:title>Oka' Yanahli (OK) Stream Temperature, Intermittency, and Conductivity Data</dc:title>
+    <dc:publisher>
+      <rdf:Description>
+        <hsterms:publisherName>Consortium of Universities for the Advancement of Hydrologic Science, Inc. (CUAHSI)</hsterms:publisherName>
+        <hsterms:publisherURL rdf:resource="https://www.cuahsi.org"/>
+      </rdf:Description>
+    </dc:publisher>
+    <dc:date>
+      <hsterms:published>
+        <rdf:value>2024-01-29T13:21:22.574235+00:00</rdf:value>
+      </hsterms:published>
+    </dc:date>
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution-ShareAlike CC BY-SA.</hsterms:rightsStatement>
+      </rdf:Description>
+    </dc:rights>
+  </hsterms:CompositeResource>
+</rdf:RDF>

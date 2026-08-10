@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <hsterms:CompositeResource rdf:about="http://www.hydroshare.org/resource/c5cdc270f7a640f58d5c009836f88097">
+    <dc:language>eng</dc:language>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:organization>Iowa State University</hsterms:organization>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:email>burginam@ku.edu</hsterms:email>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22799</hsterms:description>
+        <hsterms:name>Burgin, Amy</hsterms:name>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22799</hsterms:hydroshare_user_id>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:address>IA, US</hsterms:address>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:conformsTo>Burke, E., J. Wilhelm, S. Zipper, C. Brown (2024). AIMS SOP STIC Calibration, HydroShare, http://www.hydroshare.org/resource/9f2027c779d64149be32bdb9eede54f2</dcterms:conformsTo>
+      </rdf:Description>
+    </dc:relation>
+    <dc:subject>stream intermittency</dc:subject>
+    <dc:subject>non-perennial streams</dc:subject>
+    <dc:subject>AIMS</dc:subject>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:name>Wheeler, Christopher</hsterms:name>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14272</hsterms:description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14272</hsterms:hydroshare_user_id>
+        <hsterms:address>Kansas, US</hsterms:address>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:email>christopher.wheeler@ku.edu</hsterms:email>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:subject>STIC</dc:subject>
+    <dc:publisher>
+      <rdf:Description>
+        <hsterms:publisherURL rdf:resource="https://www.cuahsi.org"/>
+        <hsterms:publisherName>Consortium of Universities for the Advancement of Hydrologic Science, Inc. (CUAHSI)</hsterms:publisherName>
+      </rdf:Description>
+    </dc:publisher>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22711</hsterms:hydroshare_user_id>
+        <hsterms:address>KS, US</hsterms:address>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:email>connorbrown1996@gmail.com</hsterms:email>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22711</hsterms:description>
+        <hsterms:name>Brown, Connor L.</hsterms:name>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:ORCID rdf:resource="https://orcid.org/0000-0002-9680-8930"/>
+        <hsterms:organization>Kansas Geological Survey;University of Kansas</hsterms:organization>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>name=Shane Creek, Konza Prairie; projection=WGS 84 EPSG:4326; units=Decimal degrees; northlimit=39.11523; eastlimit=-96.54145; southlimit=39.09727; westlimit=-96.55914</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+    <dc:date>
+      <hsterms:published>
+        <rdf:value>2026-04-23T15:16:54.653636+00:00</rdf:value>
+      </hsterms:published>
+    </dc:date>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:hydroShareIdentifier rdf:resource="http://www.hydroshare.org/resource/c5cdc270f7a640f58d5c009836f88097"/>
+      </rdf:Description>
+    </dc:identifier>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:doi rdf:resource="https://doi.org/10.4211/hs.c5cdc270f7a640f58d5c009836f88097"/>
+      </rdf:Description>
+    </dc:identifier>
+    <dc:coverage>
+      <dcterms:period>
+        <rdf:value>start=2023-03-01T00:00:00; end=2024-11-30T00:00:00</rdf:value>
+      </dcterms:period>
+    </dc:coverage>
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution CC BY.</hsterms:rightsStatement>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      </rdf:Description>
+    </dc:rights>
+    <dc:description>
+      <rdf:Description>
+        <dcterms:abstract>This resource includes Stream Temperature, Intermittency, and Conductivity (STIC) data collected from Shane Creek located north of Kings Creek in the Konza Prairie Biological Station. These data were collected in support of the sampling goals of the Aquatic Intermittency effects on Microbiomes in Streams (AIMS) project. These sensors were set to collect temperature and conductivity data every 15 minutes starting in March 2023 through November 2024, and raw conductivity data were used to classify the timeseries into wet or dry readings at each timestep following the approach described in Zipper et al., 2025, https://doi.org/10.1016/j.envsoft.2025.106484 &#13;
+&#13;
+Each .csv file is associated with a single site and year. Also included is a README that includes author information, column descriptions, and site locations.</dcterms:abstract>
+      </rdf:Description>
+    </dc:description>
+    <dc:title>Shane Creek (Konza Prairie) Stream Temperature, Intermittency, and Conductivity Data (AIMS_GP_SHN_STIC)</dc:title>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:conformsTo>Zipper, S., Wheeler, C. T., Peterson, D. M., Cook, S. C., Godsey, S. E., &amp; Aho, K. (2025). STICr: An open-source package and workflow for stream temperature, intermittency, and conductivity (STIC) data. Environmental Modelling &amp; Software, 190, 106484. https://doi.org/10.1016/j.envsoft.2025.106484</dcterms:conformsTo>
+      </rdf:Description>
+    </dc:relation>
+    <dc:subject>Konza Prairie</dc:subject>
+    <dc:relation>
+      <rdf:Description>
+        <hsterms:isDescribedBy>Zipper, S., C. L. Brown, M. Busch (2026). Shane Creek, KS Environmental Data (AIMS_GP_SHN_ENVI), HydroShare, http://www.hydroshare.org/resource/aa609ce01c1249b980789ec1ea4b2bfa</hsterms:isDescribedBy>
+      </rdf:Description>
+    </dc:relation>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hsterms:creatorOrder>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:email>a447s196@ku.edu</hsterms:email>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22938</hsterms:description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22938</hsterms:hydroshare_user_id>
+        <hsterms:name>Sommerville, Alexi</hsterms:name>
+        <hsterms:address>KS, US</hsterms:address>
+      </rdf:Description>
+    </dc:creator>
+    <dc:contributor>
+      <rdf:Description>
+        <hsterms:homepage></hsterms:homepage>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22801</hsterms:hydroshare_user_id>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:phone></hsterms:phone>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22801</hsterms:description>
+        <hsterms:address>KS, US</hsterms:address>
+        <hsterms:email>s.m.flynn@ku.edu</hsterms:email>
+        <hsterms:name>Flynn, Sarah</hsterms:name>
+      </rdf:Description>
+    </dc:contributor>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:isPartOf>Brown, C. L., Seybold, E., Busch, M., Plont, S., Peterson, D., P., B. J., Hale, R., Jones, N., Burgin, A. (2026). Hydrologic controls on diel dissolved oxygen regimes in non-perennial streams, HydroShare, http://www.hydroshare.org/resource/be0d6dc4f2fd43d5901855f080ebe615</dcterms:isPartOf>
+      </rdf:Description>
+    </dc:relation>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:isPartOf>Flynn, S. (2026). DryingHistories, HydroShare, http://www.hydroshare.org/resource/484baf751a444672ad47767ef3750fcf</dcterms:isPartOf>
+      </rdf:Description>
+    </dc:relation>
+    <dc:type>
+      <rdf:Description rdf:about="http://www.hydroshare.org/terms/CompositeResource">
+        <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+        <rdfs:label>Composite Resource</rdfs:label>
+      </rdf:Description>
+    </dc:type>
+    <dcterms:bibliographicCitation>Sommerville, A., Zipper, S. (2026). Shane Creek (Konza Prairie) Stream Temperature, Intermittency, and Conductivity Data (AIMS_GP_SHN_STIC), HydroShare, https://doi.org/10.4211/hs.c5cdc270f7a640f58d5c009836f88097</dcterms:bibliographicCitation>
+    <dc:date>
+      <dcterms:modified>
+        <rdf:value>2026-07-07T21:57:14.383918+00:00</rdf:value>
+      </dcterms:modified>
+    </dc:date>
+    <hsterms:awardInfo>
+      <rdf:Description>
+        <hsterms:awardNumber>2019603</hsterms:awardNumber>
+        <hsterms:fundingAgencyURL rdf:resource="https://ror.org/021nxhr62"/>
+        <hsterms:awardTitle>Aquatic Intermittency Effects of Microbiomes on Streams</hsterms:awardTitle>
+        <hsterms:fundingAgencyName>U.S. National Science Foundation</hsterms:fundingAgencyName>
+      </rdf:Description>
+    </hsterms:awardInfo>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:conformsTo>Godsey, S., C. Wheeler, S. Zipper (2024). AIMS SOP STIC Deployment and Maintenance, HydroShare, http://www.hydroshare.org/resource/c82a87a6c63445029d35131260241386</dcterms:conformsTo>
+      </rdf:Description>
+    </dc:relation>
+    <dc:date>
+      <dcterms:created>
+        <rdf:value>2026-03-12T13:47:20.268777+00:00</rdf:value>
+      </dcterms:created>
+    </dc:date>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:ORCID rdf:resource="https://orcid.org/0000-0002-8735-5757"/>
+        <hsterms:email>samzipper@ku.edu</hsterms:email>
+        <hsterms:GoogleScholarID rdf:resource="https://scholar.google.com/citations?user=XXIpO1YAAAAJ&amp;hl=en"/>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hsterms:creatorOrder>
+        <hsterms:name>Zipper, Sam</hsterms:name>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5425</hsterms:description>
+        <hsterms:organization>University of Kansas</hsterms:organization>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5425</hsterms:hydroshare_user_id>
+      </rdf:Description>
+    </dc:creator>
+  </hsterms:CompositeResource>
+</rdf:RDF>

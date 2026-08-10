@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:citoterms="http://purl.org/spar/cito/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ore="http://www.openarchives.org/ore/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs1="http://www.w3.org/2001/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM03_HS_2023_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB02_HS_2021_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM07_HS_2023_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM17_HS_2021_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM23_HS_2021_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation">
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRA02_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM07_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM08_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM22_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM05_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM03_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM03_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM04_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemetadata.xml"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM17_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM12_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM08_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM20_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM08_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM02_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM10_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM04_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM02_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRA02_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM14_HS_2024_resmap.xml#aggregation"/>
+    <dc:title>Paint Rock Stream Temperature, Intermittency, and Conductivity Data (AIMS_SE_PRF_STIC)</dc:title>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM08_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM05_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM18_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM03_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB03_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM13_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM21_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM20_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM16_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM22_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM17_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM13_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB03_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM23_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM14_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM20_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM12_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB03_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/AIMS_SE_PRF_STICdata_ReadME.xlsx"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM18_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM21_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM07_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM10_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM21_HS_2023_resmap.xml#aggregation"/>
+    <ore:isDescribedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml</ore:isDescribedBy>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRA02_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM21_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRA02_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM05_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM04_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM04_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM16_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM14_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM23_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB03_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM02_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM18_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM18_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM16_HS_2023_resmap.xml#aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CompositeResource"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM05_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB02_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB02_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM20_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM10_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM10_HS_2021_resmap.xml#aggregation"/>
+        <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM03_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB02_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM17_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM12_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM13_HS_2024_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM23_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM07_HS_2022_resmap.xml#aggregation"/>
+    <citoterms:isDocumentedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemetadata.xml</citoterms:isDocumentedBy>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM14_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB02_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM22_HS_2022_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM22_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM02_HS_2021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM07_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM23_HS_2023_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM17_HS_2023_resmap.xml#aggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM16_HS_2024_resmap.xml#aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM18_HS_2021_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM07_HS_2021_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM12_HS_2024_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM20_HS_2022_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM04_HS_2023_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/AIMS_SE_PRF_STICdata_ReadME.xlsx">
+    <dc:format>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM22_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM05_HS_2021_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRA02_HS_2021_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM20_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM10_HS_2022_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB03_HS_2022_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM10_HS_2023_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM02_HS_2023_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM23_HS_2023_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM04_HS_2021_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM13_HS_2023_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM05_HS_2022_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB02_HS_2024_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRA02_HS_2022_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM04_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemetadata.xml">
+    <dc:format>application/rdf+xml</dc:format>
+    <citoterms:documents>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</citoterms:documents>
+    <dc:title>Dublin Core science metadata document describing the HydroShare resource</dc:title>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml">
+    <dcterms:modified>2026-07-09T11:42:16Z</dcterms:modified>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/ResourceMap"/>
+    <dcterms:created>2026-07-09T11:42:16Z</dcterms:created>
+    <dc:format>application/rdf+xml</dc:format>
+    <ore:describes rdf:resource="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation"/>
+    <dc:identifier>d57338ebfb0240f58e8de37ddacf9426</dc:identifier>
+    <dc:creator rdf:resource="http://foresite-toolkit.googlecode.com/#pythonAgent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM03_HS_2022_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM16_HS_2021_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRA02_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM12_HS_2022_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM13_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM23_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM14_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openarchives.org/ore/terms/Aggregation">
+    <rdfs1:isDefinedBy>http://www.openarchives.org/ore/terms/</rdfs1:isDefinedBy>
+    <rdfs1:label>Aggregation</rdfs1:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM08_HS_2022_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM12_HS_2023_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM20_HS_2021_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM07_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM21_HS_2021_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB03_HS_2023_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM18_HS_2023_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM02_HS_2022_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM05_HS_2023_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM16_HS_2023_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM03_HS_2024_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM17_HS_2024_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM21_HS_2023_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/terms/CompositeResource">
+    <rdfs1:isDefinedBy>http://www.hydroshare.org/terms</rdfs1:isDefinedBy>
+    <rdfs1:label>Composite Resource</rdfs1:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM14_HS_2021_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM05_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM08_HS_2023_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM18_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM16_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM08_HS_2021_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM04_HS_2022_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB03_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM08_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM21_HS_2022_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM20_HS_2023_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM13_HS_2022_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM17_HS_2023_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM14_HS_2022_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://foresite-toolkit.googlecode.com/#pythonAgent">
+    <foaf:mbox>foresite@googlegroups.com</foaf:mbox>
+    <foaf:name>Foresite Toolkit (Python)</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM22_HS_2021_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM22_HS_2022_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM14_HS_2023_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRA02_HS_2023_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM22_HS_2023_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB02_HS_2023_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM02_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB03_HS_2021_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM10_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM03_HS_2021_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM02_HS_2021_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM07_HS_2022_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRB02_HS_2022_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM23_HS_2022_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM18_HS_2022_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM21_HS_2024_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM10_HS_2021_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM16_HS_2022_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/contents/STIC_SE_PRF_PRM17_HS_2022_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/d57338ebfb0240f58e8de37ddacf9426/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openarchives.org/ore/terms/ResourceMap">
+    <rdfs1:isDefinedBy>http://www.openarchives.org/ore/terms/</rdfs1:isDefinedBy>
+    <rdfs1:label>ResourceMap</rdfs1:label>
+  </rdf:Description>
+</rdf:RDF>

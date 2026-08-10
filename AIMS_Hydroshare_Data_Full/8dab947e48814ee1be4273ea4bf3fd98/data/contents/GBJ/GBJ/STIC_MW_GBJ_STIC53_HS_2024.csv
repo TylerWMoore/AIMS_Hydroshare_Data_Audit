@@ -1,0 +1,2 @@
+project,datetime,siteId,rType,rep,sublocation,SN,condUncal,tempC,SpC,wetdry,qual_rating,QAQC,year
+AIMS,2024-03-04T16:00:00Z,STIC53,STIC,20240304-20240304,SW,21184378,13089,0.563,62.45327624,1,excellent,NA,2024

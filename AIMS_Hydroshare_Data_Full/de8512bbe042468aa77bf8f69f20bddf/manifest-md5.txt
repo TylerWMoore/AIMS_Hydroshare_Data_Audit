@@ -1,0 +1,4 @@
+fecb2fed7071da8ba740bd7f3a21f1cd-3    data/contents/OKA_AllSTICsCleaned_20220215-20221025.csv
+914c54c2eff4f7a1ccdbed0abb5865a2    data/contents/OKA_SiteInfo.csv
+51e1c5a93d2581bb353b82a8fdb5999c    data/resourcemap.xml
+b2b2fd9e2846e9750b809beac1f5ba7b    data/resourcemetadata.xml

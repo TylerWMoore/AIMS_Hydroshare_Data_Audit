@@ -1,0 +1,8 @@
+8f6259929a79acd82c675e6517261033    data/contents/2021.zip
+54fc0f4664b1bcd5989fbe3917542dce    data/contents/2022.zip
+0572c0918f39caf46b4dcf66c511e339    data/contents/2023.zip
+481b5866fcc07d6e4e581e9b2122d46c    data/contents/2024.zip
+41c47eea231963d180d3f87fbc8b5077    data/contents/2025.zip
+5c44c9012c9e1bba373df94db1dc467d    data/contents/README_STIC_GP_KNZ.xlsx
+2892b6d27eb9a867f25a3388a1cd780c    data/resourcemap.xml
+2a8caa006974e1ceb05da0525e00a906    data/resourcemetadata.xml

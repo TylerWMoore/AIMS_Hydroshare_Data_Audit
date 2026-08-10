@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <hsterms:CSVFileAggregation rdf:about="http://www.hydroshare.org/resource/ff306bec9fb24e52aa809dbb4d074731/data/contents/STIC_SE_TAL_TLB01_HS_2021_resmap.xml#aggregation">
+    <dc:title>STIC_SE_TAL_TLB01_HS_2021</dc:title>
+    <dc:type rdf:resource="https://www.hydroshare.org/terms/CSVFileAggregation"/>
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution CC BY.</hsterms:rightsStatement>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      </rdf:Description>
+    </dc:rights>
+    <hsterms:tableSchema>
+      <rdf:Description>
+        <hsterms:numberOfDataRows rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9036</hsterms:numberOfDataRows>
+        <hsterms:columns>
+          <rdf:Description>
+            <hsterms:column>
+              <rdf:Description>
+                <hsterms:dataType>string</hsterms:dataType>
+                <hsterms:columnNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</hsterms:columnNumber>
+                <dc:title>qual_rating</dc:title>
+              </rdf:Description>
+            </hsterms:column>
+            <hsterms:column>
+              <rdf:Description>
+                <hsterms:dataType>number</hsterms:dataType>
+                <dc:title>condUncal</dc:title>
+                <hsterms:columnNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</hsterms:columnNumber>
+              </rdf:Description>
+            </hsterms:column>
+            <hsterms:column>
+              <rdf:Description>
+                <hsterms:columnNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</hsterms:columnNumber>
+                <hsterms:dataType>number</hsterms:dataType>
+                <dc:title>SN</dc:title>
+              </rdf:Description>
+            </hsterms:column>
+            <hsterms:column>
+              <rdf:Description>
+                <dc:title>tempC</dc:title>
+                <hsterms:dataType>number</hsterms:dataType>
+                <hsterms:columnNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</hsterms:columnNumber>
+              </rdf:Description>
+            </hsterms:column>
+            <hsterms:column>
+              <rdf:Description>
+                <hsterms:dataType>number</hsterms:dataType>
+                <dc:title>SpC</dc:title>
+                <hsterms:columnNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</hsterms:columnNumber>
+              </rdf:Description>
+            </hsterms:column>
+            <hsterms:column>
+              <rdf:Description>
+                <dc:title>siteId</dc:title>
+                <hsterms:dataType>string</hsterms:dataType>
+                <hsterms:columnNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hsterms:columnNumber>
+              </rdf:Description>
+            </hsterms:column>
+            <hsterms:column>
+              <rdf:Description>
+                <dc:title>QAQC</dc:title>
+                <hsterms:dataType>number</hsterms:dataType>
+                <hsterms:columnNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</hsterms:columnNumber>
+              </rdf:Description>
+            </hsterms:column>
+            <hsterms:column>
+              <rdf:Description>
+                <hsterms:columnNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</hsterms:columnNumber>
+                <hsterms:dataType>string</hsterms:dataType>
+                <dc:title>sublocation</dc:title>
+              </rdf:Description>
+            </hsterms:column>
+            <hsterms:column>
+              <rdf:Description>
+                <hsterms:dataType>string</hsterms:dataType>
+                <dc:title>rep</dc:title>
+                <hsterms:columnNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hsterms:columnNumber>
+              </rdf:Description>
+            </hsterms:column>
+            <hsterms:column>
+              <rdf:Description>
+                <dc:title>project</dc:title>
+                <hsterms:dataType>string</hsterms:dataType>
+                <hsterms:columnNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hsterms:columnNumber>
+              </rdf:Description>
+            </hsterms:column>
+            <hsterms:column>
+              <rdf:Description>
+                <dc:title>rType</dc:title>
+                <hsterms:columnNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hsterms:columnNumber>
+                <hsterms:dataType>string</hsterms:dataType>
+              </rdf:Description>
+            </hsterms:column>
+            <hsterms:column>
+              <rdf:Description>
+                <dc:title>datetime</dc:title>
+                <hsterms:dataType>datetime</hsterms:dataType>
+                <hsterms:columnNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hsterms:columnNumber>
+              </rdf:Description>
+            </hsterms:column>
+            <hsterms:column>
+              <rdf:Description>
+                <dc:title>wetdry</dc:title>
+                <hsterms:columnNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</hsterms:columnNumber>
+                <hsterms:dataType>number</hsterms:dataType>
+              </rdf:Description>
+            </hsterms:column>
+          </rdf:Description>
+        </hsterms:columns>
+        <hsterms:delimiter>,</hsterms:delimiter>
+      </rdf:Description>
+    </hsterms:tableSchema>
+    <dc:language>eng</dc:language>
+  </hsterms:CSVFileAggregation>
+  <rdf:Description rdf:about="http://www.hydroshare.org/terms/CSVFileAggregation">
+    <rdfs:label>CSV Content: One CSV file with specific metadata</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+  </rdf:Description>
+</rdf:RDF>
