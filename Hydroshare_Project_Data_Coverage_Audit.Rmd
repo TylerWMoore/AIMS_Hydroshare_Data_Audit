@@ -32,7 +32,7 @@ One change was made in the data file for the data from the Oka' Yanahli (OK) sit
 ```{r}
 
 #Importing all the downloaded data from the folder_path location
-folder_path <- "~/Masters of Statistics/Stat 5290 - Experiential Learning/AIMS_Hydroshare_Data_Full"
+folder_path <- "~/Github_Home_Base/AIMS_Hydroshare_Data_Audit"
 file_paths <- list.files(path = folder_path, 
                          pattern = "\\.csv$",
                          recursive = TRUE,
