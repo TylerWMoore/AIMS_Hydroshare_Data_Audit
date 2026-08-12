@@ -1,0 +1,300 @@
+---
+title: "Hydroshare_wet_dry_summary"
+author: "Tyler Moore"
+date: '`r Sys.Date()`'
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+library(tidyverse)
+library(STICr)
+library(knitr)
+library(kableExtra)
+library(DT)
+library(gt)
+```
+
+## Introduction ##
+
+The purpose of this report is to show how dry the monitoring sites were for the AIMS Hydroshare project, as well as to identify the driest sites overall, and the driest sites on average.
+
+## Data ##
+
+Data was downloaded from the [Hydroshare Website](https://www.hydroshare.org/home/) from both publicly available data and some non-public-facing datasets. All data were stored in a local folder. 
+
+One change was made in the data file for the data from the Oka' Yanahli (OK) site in order to make reading the data simpler. The column name for site ID was updated from "siteID" to "siteId" to match all other datasets being analyzed.
+
+```{r}
+# Loading and Pre-processing ----------------------------------------------
+#Importing all the downloaded data from the folder_path location
+folder_path <- "~/Masters of Statistics/Stat 5290 - Experiential Learning/AIMS_Hydroshare_Data_Full"
+file_paths <- list.files(path = folder_path, 
+                         pattern = "\\.csv$",
+                         recursive = TRUE,
+                         full.names = TRUE)
+
+names(file_paths) <- file_paths
+
+combined_data <- file_paths |>
+  map(function(x) {
+    # Read the file
+    df <- read_csv(x, show_col_types = FALSE, col_types = cols(QAQC = col_character()))
+    
+    # Check if your wet/dry column exists and is stored as text/character
+    # If stored as wet/dry then converted to 1 for wet and 0 for dry
+    if ("wetdry" %in% names(df) && is.character(df$wetdry)) {
+      df <- df |> 
+        mutate(wetdry = case_when(
+          wetdry == "wet" ~ 1,
+          wetdry == "dry" ~ 0,
+          TRUE ~ as.numeric(wetdry) # Keeps existing 1s, 0s, or NAs safe
+        ))
+    }
+    return(df)
+  }) |>
+  list_rbind(names_to = "File_Path")
+```
+
+Once the data had been read in I then transformed the data to extract the region and watershed where the data was collected. 
+
+``` {r}
+wetdry_data <- combined_data |>
+  mutate(
+    # Get just the file name without the full directory path
+    File_Name = basename(File_Path),
+    
+    # Split by underscore and grab position 2 "region" and position 3 ("watershed")
+    region  = str_split_i(File_Name, "_", 2),
+    # As there are two datasets with JDR, one received special treatment to extract correct watershed
+    watershed = ifelse(
+      str_split_i(File_Name, "_", 3) == "JDR", 
+      str_sub(File_Name, 13, 15), 
+      str_split_i(File_Name, "_", 3)
+    ),
+    
+    parsed_datetime = as.POSIXct(datetime, tz = "UTC"), 
+    year = year(parsed_datetime),
+    Date = as.Date(parsed_datetime),
+    #start_date = ymd(str_split_i(rep,"-", 1)),
+    #end_date = ymd(str_split_i(rep, "-", 2))
+  ) |>
+  select(siteId, region, watershed, year, Date, wetdry) # (start_date, end_date,) ~ variables determined to be unnecessary 
+
+
+```
+
+From there I then computed the average amount of time each sensor recorded wet versus dry during each day as a mean. The purpose was to condense the data into a single point per day per site. 
+
+```{r}
+# Calculating the average percent of each day that was recorded as wet
+wetdry_day <- wetdry_data |>
+  group_by(siteId, region, watershed, Date, year) |>
+  summarise(
+    day_mean = mean(wetdry, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+
+# Summarize data to count dry days per site per year
+# Dry days are defined as a day where the entire day is dry
+annual_summary <- wetdry_day |>
+  group_by(siteId,region, watershed, year) |>
+  summarise(
+    Annual_Dry_Days = sum(day_mean == "0", na.rm = TRUE),
+    .groups = "drop"
+  )
+
+```
+
+## Results ###
+
+Table 1 displays the 5 driest sites in any given year out of all data collected.
+
+``` {r}
+# Driest Sites & Years
+# Top 5 driest combinations (site and year)
+driest_combinations <- annual_summary |>
+  arrange(desc(Annual_Dry_Days)) |>
+  slice_head(n = 5)
+
+# ### HTML Output ###
+# driest_combinations |>
+#   gt() |>
+#   # Add professional titles
+#   tab_header(
+#     title = md("**Top 5 Hydrological Observations with the Highest Annual Dry Days**"),
+#     subtitle = "Summary of the driest site-year combinations across monitored watersheds"
+#   ) |>
+#   # Rename columns to clear title case
+#   cols_label(
+#     siteId = "Site ID",
+#     region = "Region",
+#     watershed = "Watershed",
+#     year = "Year",
+#     Annual_Dry_Days = "Annual Dry Days"
+#   ) |>
+#   # Format numbers to look clean
+#   fmt_integer(columns = Annual_Dry_Days) |>
+#   # Align text left and numbers right
+#   cols_align(
+#     align = "left",
+#     columns = c(siteId, region, watershed)
+#   ) |>
+#   cols_align(
+#     align = "right",
+#     columns = c(year, Annual_Dry_Days)
+#   ) |>
+#   # Apply a clean, academic theme (APA/Minimal style)
+#   tab_options(
+#     heading.align = "left",
+#     table.border.top.color = "black",
+#     table.border.top.width = px(2),
+#     table.border.bottom.color = "black",
+#     table.border.bottom.width = px(2),
+#     column_labels.border.bottom.color = "black",
+#     column_labels.border.bottom.width = px(1.5),
+#     table_body.border.bottom.color = "black",
+#     table_body.border.bottom.width = px(1),
+#     data_row.padding = px(6)
+#   )
+
+
+### PDF Output ###
+driest_combinations |>
+  # Rename columns directly for kable
+  rename(
+    `Site ID` = siteId,
+    `Region` = region,
+    `Watershed` = watershed,
+    `Year` = year,
+    `Annual Dry Days` = Annual_Dry_Days
+  ) |>
+  # Generate classic academic table
+  kbl(
+    caption = "Top 5 Monitored Site-Years with the Highest Count of Annual Dry Days",
+    booktabs = TRUE,
+    centering = TRUE
+  ) |>
+  # Apply classic academic APA styling
+  kable_classic(full_width = FALSE, html_font = "Cambria") |>
+  row_spec(0, bold = TRUE) # Bold headers
+
+#datatable(driest_combinations, caption = "Top 5 Driest Sites in a Year")
+```
+
+Table 2 displays the overall driest sites by mean number of dry days at the site during the monitoring timeframe.  
+
+``` {r}
+# Overall driest sites (averaged across all years)
+overall_driest_sites <- annual_summary |>
+  group_by(siteId, region, watershed) |>
+  summarise(Mean_Dry_Days = mean(Annual_Dry_Days), .groups = "drop") |>
+  arrange(desc(Mean_Dry_Days)) |>
+  slice_head(n = 5)
+
+# overall_driest_sites |>
+#   gt() |>
+#   # Add professional titles
+#   tab_header(
+#     title = md("**Top 5 Monitored Sites with the Highest Mean Annual Dry Days**"),
+#     subtitle = "Summary of the driest sites on average across monitored watersheds"
+#   ) |>
+#   # Rename columns to clear title case
+#   cols_label(
+#     siteId = "Site ID",
+#     region = "Region",
+#     watershed = "Watershed",
+#     Mean_Dry_Days = "Mean Annual Dry Days"
+#   ) |>
+#   # Format numbers to look clean
+#   fmt_integer(columns = Mean_Dry_Days) |>
+#   # Align text left and numbers right
+#   cols_align(
+#     align = "left",
+#     columns = c(siteId, region, watershed)
+#   ) |>
+#   cols_align(
+#     align = "right",
+#     columns = c(Mean_Dry_Days)
+#   ) |>
+#   # Apply a clean, academic theme (APA/Minimal style)
+#   tab_options(
+#     heading.align = "left",
+#     table.border.top.color = "black",
+#     table.border.top.width = px(2),
+#     table.border.bottom.color = "black",
+#     table.border.bottom.width = px(2),
+#     column_labels.border.bottom.color = "black",
+#     column_labels.border.bottom.width = px(1.5),
+#     table_body.border.bottom.color = "black",
+#     table_body.border.bottom.width = px(1),
+#     data_row.padding = px(6)
+#   )
+
+
+### PDF Output ###
+overall_driest_sites |>
+  # Rename columns directly for kable
+  rename(
+    `Site ID` = siteId,
+    `Region` = region,
+    `Watershed` = watershed,
+    `Mean Annual Dry Days` = Mean_Dry_Days
+  ) |>
+  # Generate classic academic table
+  kbl(
+    caption = "Top 5 Monitored Sites with the Highest Mean Annual Dry Days",
+    booktabs = TRUE,
+    centering = TRUE
+  ) |>
+  # Apply classic academic APA styling
+  kable_classic(full_width = FALSE, html_font = "Cambria") |>
+  row_spec(0, bold = TRUE) # Bold headers
+
+#datatable(overall_driest_sites, caption = "Top 5 Driest Sites on Average")
+```
+
+
+The following heatmaps show the number of dry days for each site in the given year. The sites where there is no reported data in the given year are shown in white.
+
+```{r}
+annual_summary |> 
+  group_split(watershed) |> 
+  walk(function(df) {
+    
+    # Extract the name of the current watershed
+    current_watershed <- unique(df$watershed)
+    
+    # Build the dedicated heatmap plot
+    p <- ggplot(df, aes(x = factor(year), y = siteId, fill = Annual_Dry_Days)) +
+      geom_tile(color = "white", linewidth = 0.2) +
+      # Forces siteIds to sort alphabetically from top to bottom within this watershed
+      scale_y_discrete(limits = rev(sort(unique(df$siteId)))) +
+      scale_fill_viridis_c(
+        option = "inferno", 
+        direction = -1,          
+        limits = c(0, 365),
+        labels = function(x) paste0(x)
+      ) +
+      labs(
+        x = "Year",
+        y = "Site ID",
+        fill = "Dry Days",
+        title = paste("Total Dry Days Heatmap:", current_watershed)
+      ) +
+      theme_minimal() +
+      theme(
+        plot.title = element_text(face = "bold", size = 14),
+        axis.text.y = element_text(size = 8),
+        axis.text.x = element_text(size = 10),
+        panel.grid = element_blank()
+      )
+    
+    # Explicitly print the plot
+    print(p)
+  })
+```
